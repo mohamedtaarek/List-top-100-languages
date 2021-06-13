@@ -1,0 +1,30 @@
+{
+  "name": "top100",
+  "version": "1.0.0",
+  "description": "Microservice that list the languages used by the 100 trending public repos on GitHub",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedtaarek/List-top-100-languages.git"
+  },
+  "keywords": [
+    "github",
+    "top",
+    "100",
+    "languages",
+    "reposetories",
+    "repos"
+  ],
+  "author": "Mohamed Tarek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamedtaarek/List-top-100-languages/issues"
+  },
+  "homepage": "https://github.com/mohamedtaarek/List-top-100-languages#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
